@@ -95,7 +95,7 @@ def test126MailAddContacts():
                         sleep(1)
                         logging.info(u"添加联系人%s成功" % contactPersonEmail)
 
-                        # 在联系人工作表中写入添加联系人执行时间
+                        # 在联系人工作表 中写入添加联系人执行时间
                         excelObj.writeCellCurrentTime(dataSheet,
                                                       rowNo=id + 2, colsNo=contacts_runTime)
                         try:

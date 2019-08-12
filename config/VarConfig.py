@@ -1,6 +1,8 @@
 # encoding=utf-8
 import os
 
+chromeDriverFilePath = "E:\\driver\\chromedriver"
+
 # 获得当前文件所在目录的父目录的绝对路径
 parentDirPath = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -9,6 +11,9 @@ pageElementLocatorPath = parentDirPath + u"\\config\\PageElementLocator.ini"
 
 # 获取数据文件存放绝对路径
 dataFilePath = parentDirPath + u"\\testData\\126邮箱联系人.xlsx"
+
+# 获取异常截图存放目录
+screenPicturesDir = parentDirPath + "\\exceptionpictures"
 
 # 126账号工作表中，每列对应的数字序号
 account_username=2

@@ -1,0 +1,12 @@
+2019-08-12 10:29:12 TestMail126AddContacts.py[line:38] INFO 126邮箱添加联系人数据驱动测试开始...
+2019-08-12 10:29:21 TestMail126AddContacts.py[line:55] INFO 启动浏览器，访问126邮箱主页
+2019-08-12 10:29:24 TestMail126AddContacts.py[line:62] INFO 用户y284438799登录后，断言页面关键字'收信'成功
+2019-08-12 10:29:32 TestMail126AddContacts.py[line:96] INFO 添加联系人lily@qq.com成功
+2019-08-12 10:29:32 TestMail126AddContacts.py[line:113] INFO 断言关键字'lily@qq.com'成功
+2019-08-12 10:29:40 TestMail126AddContacts.py[line:96] INFO 添加联系人zhangsan@qq.com成功
+2019-08-12 10:29:40 TestMail126AddContacts.py[line:113] INFO 断言关键字'zhangsan@qq.com'成功
+2019-08-12 10:29:40 TestMail126AddContacts.py[line:115] INFO 联系人zhangsan@qq.com被忽略执行
+2019-08-12 10:29:48 TestMail126AddContacts.py[line:96] INFO 添加联系人lisi@qq.com成功
+2019-08-12 10:29:48 TestMail126AddContacts.py[line:113] INFO 断言关键字'李四'成功
+2019-08-12 10:29:48 TestMail126AddContacts.py[line:122] INFO 为用户y284438799添加3个联系人，3个成功
+
