@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d3b48488-0764-47b0-9805-5e0e79d60a66" name="Default Changelist" comment="" />
+    <list default="true" id="d3b48488-0764-47b0-9805-5e0e79d60a66" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/RunTest.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/Logger.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/util/Log.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testData/126邮箱联系人.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/testData/126邮箱联系人.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testScripts/TestMail126AddContacts.py" beforeDir="false" afterPath="$PROJECT_DIR$/testScripts/TestMail126AddContacts.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,18 +22,32 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="E:\PycharmProjects\DataDrivenFrameWork\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1P8XYTZpWpTug8aGOVpgKe2Qsi2" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/testData" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/log" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\PycharmProjects\DataDrivenFrameWork\testData" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\DataDrivenFrameWork\testData" />
       <recent name="E:\PycharmProjects\DataDrivenFrameWork\util" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\DataDrivenFrameWork\log" />
+      <recent name="E:\PycharmProjects\DataDrivenFrameWork\testData" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -41,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.AddContactPersonAction">
+  <component name="RunManager" selected="Python.TestMail126AddContacts">
     <configuration name="AddContactPersonAction" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataDrivenFrameWork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -86,50 +107,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="ParseConfigurationFile (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataDrivenFrameWork" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/util" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/util/ParseConfigurationFile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ParseConfigurationFile" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="DataDrivenFrameWork" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/config" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\PycharmProjects\DataDrivenFrameWork\util\ParseConfigurationFile.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="ParseExcel" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="DataDrivenFrameWork" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -152,13 +129,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="TestMail126AddContacts" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataDrivenFrameWork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testScripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testScripts/TestMail126AddContacts.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="DataDrivenFrameWork" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/testScripts" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/testScripts/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.TestMail126AddContacts" />
+        <item itemvalue="Python.test" />
         <item itemvalue="Python.AddContactPersonAction" />
         <item itemvalue="Python.ParseExcel" />
         <item itemvalue="Python.LoginPage" />
-        <item itemvalue="Python.ParseConfigurationFile (1)" />
-        <item itemvalue="Python.ParseConfigurationFile" />
       </list>
     </recent_temporary>
   </component>
@@ -173,17 +194,32 @@
       <option name="presentableId" value="Default" />
       <updated>1565256744189</updated>
       <workItem from="1565256757351" duration="1484000" />
-      <workItem from="1565312129677" duration="28559000" />
+      <workItem from="1565312129677" duration="29023000" />
+      <workItem from="1565570884983" duration="6242000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/DataDrivenFrameWork$LoginPage.coverage" NAME="LoginPage Coverage Results" MODIFIED="1565321681710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/pageObjects" />
-    <SUITE FILE_PATH="coverage/DataDrivenFrameWork$TestMail126AddContacts.coverage" NAME="TestMail126AddContacts Coverage Results" MODIFIED="1565319275359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testScripts" />
+    <SUITE FILE_PATH="coverage/DataDrivenFrameWork$TestMail126AddContacts.coverage" NAME="TestMail126AddContacts Coverage Results" MODIFIED="1565576951597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testScripts" />
     <SUITE FILE_PATH="coverage/DataDrivenFrameWork$ParseExcel.coverage" NAME="ParseExcel Coverage Results" MODIFIED="1565336030388" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
+    <SUITE FILE_PATH="coverage/DataDrivenFrameWork$test.coverage" NAME="test Coverage Results" MODIFIED="1565571450637" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/testScripts" />
     <SUITE FILE_PATH="coverage/DataDrivenFrameWork$LoginAction.coverage" NAME="LoginAction Coverage Results" MODIFIED="1565318772536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/appModules" />
     <SUITE FILE_PATH="coverage/DataDrivenFrameWork$ParseConfigurationFile.coverage" NAME="ParseConfigurationFile Coverage Results" MODIFIED="1565320929893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/config" />
     <SUITE FILE_PATH="coverage/DataDrivenFrameWork$ParseConfigurationFile__1_.coverage" NAME="ParseConfigurationFile (1) Coverage Results" MODIFIED="1565321022037" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/util" />
